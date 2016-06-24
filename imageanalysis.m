@@ -24,9 +24,3 @@ for n = 1:10
     s = strcat(s1,s2)
     imwrite(b, s);
 end
-
-%a = imread(str);
-%b = imcrop(a,[198 289 255 255]);
-%subplot(1,2,1), imshow(a);
-%subplot(1,2,2), imshow(b);
-%imwrite(b,'/resultimage/helloworld', 'jpg');
